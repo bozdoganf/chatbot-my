@@ -1,11 +1,11 @@
-export const DEFAULT_CHAT_MODEL = "moonshotai/kimi-k2.5";
+export const DEFAULT_CHAT_MODEL = "openai/gpt-oss-20b";
 
 export const titleModel = {
   description: "Fast model for title generation",
-  gatewayOrder: ["fireworks", "bedrock"],
-  id: "moonshotai/kimi-k2.5",
-  name: "Kimi K2.5",
-  provider: "moonshotai",
+  gatewayOrder: ["groq", "bedrock"],
+  id: DEFAULT_CHAT_MODEL,
+  name: "GPT OSS 20B",
+  provider: "openai",
 };
 
 export type ModelCapabilities = {
